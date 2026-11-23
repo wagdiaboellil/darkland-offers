@@ -1,0 +1,390 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<meta name="format-detection" content="telephone=no">
+<meta name="claude:viewport-fit-sides" content="cover">
+<title>خصومات دارك لاند</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@400;500;600;700&family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&display=swap">
+<style>
+:root{
+  --bg:#f4f4f5; --surface:#ffffff; --surface-2:#ececee; --fg:#17171a; --muted:#6b6b73;
+  --line:#dcdce0; --accent:#0d8e8e; --accent-ink:#08484a; --ok:#1f8a4c; --free:#1f8a4c;
+  --strike:#9a9aa2; --shadow:0 1px 3px rgba(0,0,0,.08),0 6px 20px rgba(0,0,0,.05);
+  --r:14px;
+  --ff-ui:"IBM Plex Sans Arabic",system-ui,sans-serif;
+  --ff-head:"Readex Pro","IBM Plex Sans Arabic",system-ui,sans-serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#111113; --surface:#1b1b1f; --surface-2:#26262b; --fg:#f2f2f4; --muted:#9a9aa3;
+  --line:#33333a; --accent:#2fd4cf; --accent-ink:#2fd4cf; --ok:#43c478; --free:#43c478;
+  --strike:#6b6b73; --shadow:0 1px 3px rgba(0,0,0,.4),0 10px 30px rgba(0,0,0,.35); color-scheme:dark;
+}}
+:root[data-theme="dark"]{
+  --bg:#111113; --surface:#1b1b1f; --surface-2:#26262b; --fg:#f2f2f4; --muted:#9a9aa3;
+  --line:#33333a; --accent:#2fd4cf; --accent-ink:#2fd4cf; --ok:#43c478; --free:#43c478;
+  --strike:#6b6b73; --shadow:0 1px 3px rgba(0,0,0,.4),0 10px 30px rgba(0,0,0,.35); color-scheme:dark;
+}
+*{box-sizing:border-box}
+html,body{height:100%}
+body{direction:rtl;background:var(--bg);color:var(--fg);font-family:var(--ff-ui);margin:0;
+  display:flex;flex-direction:column;overscroll-behavior:none}
+button{font-family:inherit;cursor:pointer}
+.gutter{padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:var(--surface);
+  border-bottom:1px solid var(--line)}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:21;background:var(--surface)}
+.brand{display:flex;align-items:center;justify-content:space-between;gap:10px;padding-block:10px}
+.brand h1{font-family:var(--ff-head);font-size:1.15rem;font-weight:700;margin:0;letter-spacing:.01em;
+  display:flex;align-items:center;gap:9px}
+.dot{width:11px;height:11px;border-radius:3px;background:var(--fg);display:inline-block}
+.count{font-size:.72rem;color:var(--muted);font-weight:500}
+.themebtn{background:var(--surface-2);border:1px solid var(--line);color:var(--muted);border-radius:9px;
+  width:34px;height:34px;font-size:1rem;display:grid;place-items:center}
+.searchwrap{padding-bottom:12px}
+.search{position:relative}
+.search input{width:100%;font-family:var(--ff-ui);font-size:1.05rem;font-weight:500;color:var(--fg);
+  background:var(--surface-2);border:1.5px solid var(--line);border-radius:12px;padding:13px 44px 13px 14px;outline:none}
+.search input:focus{border-color:var(--accent)}
+.search .ic{position:absolute;inset-inline-start:14px;top:50%;transform:translateY(-50%);color:var(--muted);font-size:1.05rem}
+.search .clr{position:absolute;inset-inline-end:8px;top:50%;transform:translateY(-50%);background:none;border:none;
+  color:var(--muted);font-size:1.3rem;line-height:1;padding:6px;border-radius:8px}
+
+main{flex:1;overflow-y:auto;-webkit-overflow-scrolling:touch;padding-block:12px 150px}
+.hint{color:var(--muted);font-size:.9rem;text-align:center;padding:30px 10px;line-height:1.7}
+.rescount{color:var(--muted);font-size:.74rem;font-weight:500;margin:2px 2px 10px}
+.list{display:flex;flex-direction:column;gap:9px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);box-shadow:var(--shadow);
+  padding:12px 13px}
+.cardtop{display:grid;grid-template-columns:1fr auto;gap:8px 12px;align-items:center}
+.model{font-weight:700;font-size:1.08rem;min-width:0;word-break:break-word;line-height:1.3;font-family:var(--ff-head)}
+.model .vcnt{color:var(--muted);font-weight:500;font-size:.8rem;font-family:var(--ff-ui)}
+.prices{text-align:center;display:flex;flex-direction:column;gap:1px;line-height:1.15;white-space:nowrap}
+.orig{color:var(--strike);text-decoration:line-through;font-size:.8rem;font-variant-numeric:tabular-nums}
+.disc{color:var(--accent-ink);font-weight:700;font-size:1.3rem;font-variant-numeric:tabular-nums;font-family:var(--ff-head)}
+.disc.range{font-size:1.02rem}
+.disc small{font-size:.62rem;font-weight:500;color:var(--muted)}
+.cardbtns{grid-column:1/-1;margin-top:9px;display:flex;gap:8px}
+.addbtn{flex:1;background:var(--surface-2);border:1px solid var(--line);color:var(--fg);font-weight:600;
+  font-size:.9rem;border-radius:10px;padding:9px;display:flex;align-items:center;justify-content:center;gap:7px}
+.addbtn:active{background:var(--accent);color:#042a2a;border-color:var(--accent)}
+.addbtn.added{background:var(--accent);color:#042a2a;border-color:var(--accent)}
+.expbtn{flex:1;background:none;border:1px solid var(--line);color:var(--muted);font-weight:600;font-size:.86rem;
+  border-radius:10px;padding:9px;display:flex;align-items:center;justify-content:center;gap:6px}
+.expbtn.full{flex:1}
+.variants{margin-top:10px;border-top:1px dashed var(--line);padding-top:9px;display:flex;flex-direction:column;gap:6px}
+.vrow{display:grid;grid-template-columns:1fr auto auto;gap:6px 10px;align-items:center;
+  background:var(--surface-2);border-radius:10px;padding:7px 9px}
+.vrow .vlab{font-size:.85rem;font-weight:600;min-width:0;word-break:break-word}
+.vrow .vpr{text-align:center;font-variant-numeric:tabular-nums}
+.vrow .vpr b{color:var(--accent-ink);font-weight:700;font-size:1rem}
+.vrow .vpr .vwas{display:block;font-size:.66rem;color:var(--strike);text-decoration:line-through;font-weight:500}
+.vrow .vadd{background:var(--surface);border:1px solid var(--line);color:var(--fg);font-weight:700;font-size:1.05rem;
+  width:34px;height:34px;border-radius:9px;line-height:1;flex:none}
+.vrow .vadd:active,.vrow .vadd.added{background:var(--accent);color:#042a2a;border-color:var(--accent)}
+
+.basketbar{position:fixed;inset-inline:0;bottom:0;z-index:30;background:var(--surface);border-top:1px solid var(--line);
+  box-shadow:0 -6px 24px rgba(0,0,0,.12);padding-bottom:env(safe-area-inset-bottom,0px)}
+.bsummary{display:flex;align-items:center;justify-content:space-between;gap:12px;padding-block:11px}
+.bsummary .lbl{font-size:.78rem;color:var(--muted);font-weight:500}
+.bsummary .tot{font-family:var(--ff-head);font-weight:700;font-size:1.45rem;font-variant-numeric:tabular-nums}
+.bsummary .tot small{font-size:.7rem;color:var(--muted);font-weight:500}
+.bsummary .cta{background:var(--accent);color:#042a2a;border:none;font-weight:700;font-size:.92rem;border-radius:11px;
+  padding:11px 16px;display:flex;align-items:center;gap:7px;white-space:nowrap}
+.bsummary .cta .n{background:rgba(0,0,0,.18);border-radius:20px;padding:1px 8px;font-size:.82rem}
+.bogo{display:flex;align-items:center;gap:9px;padding-block:0 11px;margin-top:-2px}
+.bogo label{display:flex;align-items:center;gap:8px;font-size:.84rem;font-weight:600;color:var(--fg);cursor:pointer}
+.switch{position:relative;width:42px;height:24px;flex:none}
+.switch input{opacity:0;width:0;height:0}
+.slider{position:absolute;inset:0;background:var(--surface-2);border:1px solid var(--line);border-radius:20px;transition:.15s}
+.slider::before{content:"";position:absolute;width:18px;height:18px;border-radius:50%;background:var(--muted);top:2px;inset-inline-start:2px;transition:.15s}
+.switch input:checked + .slider{background:var(--accent);border-color:var(--accent)}
+.switch input:checked + .slider::before{background:#042a2a;transform:translateX(-18px)}
+.bogo .tag{font-size:.68rem;color:var(--muted)}
+
+.sheet{position:fixed;inset:0;z-index:40;background:rgba(0,0,0,.45);display:none;align-items:flex-end}
+.sheet.open{display:flex}
+.sheetcard{background:var(--bg);width:100%;max-height:82%;border-radius:20px 20px 0 0;display:flex;flex-direction:column;
+  padding-bottom:env(safe-area-inset-bottom,0px)}
+.sheethead{display:flex;align-items:center;justify-content:space-between;padding:15px 16px 10px;border-bottom:1px solid var(--line)}
+.sheethead h2{font-family:var(--ff-head);font-size:1.1rem;margin:0}
+.sheethead button{background:none;border:none;color:var(--muted);font-size:1.5rem;line-height:1;padding:4px 8px}
+.items{overflow-y:auto;padding:12px 16px;display:flex;flex-direction:column;gap:8px}
+.brow{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:10px 11px;
+  display:grid;grid-template-columns:1fr auto auto;gap:6px 10px;align-items:center}
+.brow .nm{font-weight:600;font-size:.9rem;min-width:0;word-break:break-word}
+.brow .nm .sz{color:var(--muted);font-weight:500;font-size:.8rem}
+.brow .pr{text-align:center;font-variant-numeric:tabular-nums;font-weight:700}
+.brow .pr .was{display:block;font-size:.7rem;color:var(--strike);text-decoration:line-through;font-weight:500}
+.brow .pr .freeTag{color:var(--free);font-size:.9rem}
+.qty{display:flex;align-items:center;gap:8px}
+.qty button{width:30px;height:30px;border-radius:8px;border:1px solid var(--line);background:var(--surface-2);color:var(--fg);font-size:1.1rem;font-weight:700;line-height:1}
+.qty span{min-width:18px;text-align:center;font-weight:700;font-variant-numeric:tabular-nums}
+.sheetfoot{border-top:1px solid var(--line);padding:13px 16px;display:flex;flex-direction:column;gap:10px}
+.totrow{display:flex;align-items:baseline;justify-content:space-between}
+.totrow .big{font-family:var(--ff-head);font-weight:700;font-size:1.7rem;font-variant-numeric:tabular-nums}
+.totrow .save{color:var(--ok);font-size:.82rem;font-weight:600}
+.breakdown{font-size:.75rem;color:var(--muted);line-height:1.6}
+.clearbtn{background:none;border:1px solid var(--line);color:var(--muted);border-radius:10px;padding:9px;font-weight:600;font-size:.85rem}
+.empty{color:var(--muted);text-align:center;padding:40px 10px;font-size:.9rem}
+
+.gate{position:fixed;inset:0;z-index:60;background:var(--bg);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:16px;text-align:center}
+.gate[hidden]{display:none}
+[hidden]{display:none!important}
+.gate .box{display:flex;flex-direction:column;gap:12px;width:min(340px,86vw)}
+.gate h1{font-family:var(--ff-head);font-size:1.3rem;margin:0;display:flex;gap:9px;align-items:center;justify-content:center}
+.gate p{color:var(--muted);font-size:.86rem;margin:0;line-height:1.6}
+.gate input{font-family:var(--ff-ui);font-size:1.3rem;text-align:center;letter-spacing:.3em;padding:13px;border-radius:12px;
+  border:1.5px solid var(--line);background:var(--surface);color:var(--fg);outline:none}
+.gate input:focus{border-color:var(--accent)}
+.gate .go{background:var(--accent);color:#042a2a;border:none;font-weight:700;font-size:1rem;border-radius:12px;padding:13px}
+.gate .err{color:#d23b3b;font-size:.82rem;min-height:1em}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+
+<div class="gate" id="gate">
+  <div class="box">
+    <h1><span class="dot"></span> دارك لاند</h1>
+    <p>الصفحة دي لموظفي دارك لاند. اكتب كود الدخول.</p>
+    <input id="gateInput" type="tel" inputmode="numeric" maxlength="8" placeholder="••••" autocomplete="off">
+    <button class="go" id="gateGo">دخول</button>
+    <div class="err" id="gateErr"></div>
+  </div>
+</div>
+
+<div id="app" hidden>
+  <header>
+    <div class="gutter brand">
+      <h1><span class="dot"></span> دارك لاند <span class="count" id="itemCount"></span></h1>
+      <button class="themebtn" id="themeBtn" title="تبديل الوضع">◐</button>
+    </div>
+    <div class="gutter searchwrap">
+      <div class="search">
+        <span class="ic">🔎</span>
+        <input id="q" type="search" inputmode="search" placeholder="اكتب كود الموديل… مثلاً AYD" autocomplete="off" enterkeyhint="search">
+        <button class="clr" id="clr" hidden>×</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="gutter" id="main">
+    <div class="hint" id="hint">اكتب كود الموديل أو جزء منه<br>عشان تظهر مقاساته وأسعاره بعد الخصم</div>
+    <div class="rescount" id="rescount" hidden></div>
+    <div class="list" id="list"></div>
+  </main>
+
+  <div class="basketbar">
+    <div class="gutter bogo">
+      <label><span class="switch"><input type="checkbox" id="bogo"><span class="slider"></span></span> عرض «قطعة على قطعة» شغّال؟</label>
+      <span class="tag">لو شغّال، الأداة تختار العرض الأوفر للعميل تلقائيًا</span>
+    </div>
+    <div class="gutter bsummary">
+      <div>
+        <div class="lbl">الإجمالي بعد الخصم</div>
+        <div class="tot" id="barTot">0 <small>ج</small></div>
+      </div>
+      <button class="cta" id="openSheet">السلة <span class="n" id="barCount">0</span></button>
+    </div>
+  </div>
+
+  <div class="sheet" id="sheet">
+    <div class="sheetcard">
+      <div class="sheethead"><h2>السلة</h2><button id="closeSheet">×</button></div>
+      <div class="items" id="items"><div class="empty">السلة فاضية</div></div>
+      <div class="sheetfoot">
+        <div class="totrow"><span>الإجمالي</span><span class="big" id="sheetTot">0 ج</span></div>
+        <div class="totrow"><span class="breakdown" id="breakdown"></span><span class="save" id="saveLine"></span></div>
+        <button class="clearbtn" id="clearBtn">تفريغ السلة</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+/* model data: [code, variants, uniformFlag, minSingle, maxSingle]
+   variants: [label, orig, single, pairPerPiece] */
+const MODELS = [["S1040", [["black • 46", 1662, 920, 895], ["black • 45", 1662, 920, 895], ["kahliu • 45", 1662, 920, 895], ["Black×white • 45", 1662, 920, 895], ["kahliu • 44", 1662, 920, 895], ["Gray • 44", 1662, 920, 895], ["Black×white • 44", 1662, 920, 895], ["Black×white • 43", 1662, 920, 895], ["kahliu • 42", 1662, 920, 895], ["Gray • 42", 1662, 920, 895], ["Black • 41", 1299, 740, 715], ["Black • 42", 1299, 740, 715], ["Black • 43", 1299, 740, 715], ["Black • 44", 1299, 740, 715], ["Black • 45", 1299, 740, 715], ["Gray • 41", 1299, 740, 715], ["Gray • 42", 1299, 740, 715], ["Gray • 43", 1299, 740, 715], ["Gray • 44", 1299, 740, 715], ["Gray • 45", 1299, 740, 715], ["Khaki • 41", 1299, 740, 715], ["Khaki • 42", 1299, 740, 715], ["Khaki • 43", 1299, 740, 715], ["Khaki • 44", 1299, 740, 715], ["Khaki • 45", 1299, 740, 715], ["Khaki • 46", 1299, 740, 715], ["White/Black • 42", 1299, 740, 715], ["White/Black • 43", 1299, 740, 715], ["White/Black • 44", 1299, 740, 715], ["White/Black • 45", 1299, 740, 715], ["White/Black • 46", 1299, 740, 715], ["Gray • 46", 1299, 740, 715], ["Brown • 41", 1499, 840, 815], ["Brown • 42", 1499, 840, 815], ["Brown • 43", 1499, 840, 815], ["Brown • 44", 1499, 840, 815], ["Brown • 45", 1499, 840, 815], ["Brown • 46", 1499, 840, 815]], 0, 740, 920], ["OLA", [["Beige x Gray • 43", 1085, 635, 610], ["Black x Gray • 43", 1085, 635, 610], ["beige • 42", 1085, 635, 610], ["kahliu×white • 41", 1085, 635, 610], ["brown • 41", 1085, 635, 610], ["White×beige • 41", 1085, 635, 610], ["zati • 41", 1085, 635, 610], ["Black x Gray • 41", 1085, 635, 610], ["black • 41", 1085, 635, 610], ["kahliu • 41", 1085, 635, 610], ["beige • 41", 1085, 635, 610], ["White/Navy • 41", 1299, 740, 715], ["White/Navy • 42", 1299, 740, 715], ["White/Navy • 43", 1299, 740, 715], ["White/Navy • 44", 1099, 640, 615], ["White/Navy • 45", 1099, 640, 615], ["White/Beige • 41", 1099, 640, 615], ["White/Beige • 42", 1099, 640, 615], ["White/Beige • 43", 1099, 640, 615], ["White/Beige • 44", 1099, 640, 615], ["White/Beige • 45", 1099, 640, 615], ["White/Beige • 46", 1049, 615, 590], ["Black • 42", 1049, 615, 590], ["Black • 43", 1049, 615, 590], ["Black • 44", 1049, 615, 590], ["Black • 45", 1049, 615, 590], ["Black • 46", 1049, 615, 590], ["Khaki • 41", 1049, 615, 590], ["Khaki • 42", 1049, 615, 590], ["Khaki • 43", 1049, 615, 590], ["Khaki • 44", 1049, 615, 590], ["Khaki • 45", 1049, 615, 590], ["White/Navy • 46", 1199, 690, 665]], 0, 615, 740], ["OLB", [["beige • 45", 1085, 635, 610], ["beige • 44", 1085, 635, 610], ["beige • 43", 1085, 635, 610], ["black • 42", 1085, 635, 610], ["beige • 42", 1085, 635, 610], ["black • 41", 1085, 635, 610], ["Gamley • 41", 1085, 635, 610], ["Black • 41", 1199, 690, 665], ["Black • 42", 1199, 690, 665], ["Black • 43", 1199, 690, 665], ["Black • 44", 1199, 690, 665], ["Black • 45", 1199, 690, 665], ["Khaki • 41", 1199, 690, 665], ["Khaki • 42", 1199, 690, 665], ["Khaki • 43", 1199, 690, 665], ["Khaki • 44", 1199, 690, 665], ["Khaki • 45", 1199, 690, 665], ["Beige • 41", 1199, 690, 665], ["Beige • 42", 1199, 690, 665], ["Beige • 43", 1199, 690, 665], ["Beige • 44", 1199, 690, 665], ["Beige • 45", 1199, 690, 665], ["Gray • 41", 1199, 690, 665], ["Gray • 42", 1199, 690, 665], ["Gray • 43", 1199, 690, 665], ["Gray • 44", 1199, 690, 665], ["Gray • 45", 1199, 690, 665], ["Camel • 41", 1199, 690, 665], ["Camel • 42", 1199, 690, 665], ["Camel • 43", 1199, 690, 665], ["Camel • 44", 1199, 690, 665], ["Camel • 45", 1199, 690, 665]], 0, 635, 690], ["OLS", [["Camel • 41", 1199, 690, 665], ["Camel • 42", 1199, 690, 665], ["Camel • 43", 1199, 690, 665], ["Camel • 44", 1199, 690, 665], ["Camel • 45", 1199, 690, 665], ["Black • 41", 1199, 690, 665], ["Black • 42", 1199, 690, 665], ["Black • 43", 1199, 690, 665], ["Black • 44", 1199, 690, 665], ["Black • 45", 1199, 690, 665], ["Black/White • 41", 1199, 690, 665], ["Black/White • 42", 1199, 690, 665], ["Black/White • 43", 1199, 690, 665], ["Black/White • 44", 1199, 690, 665], ["Black/White • 45", 1199, 690, 665], ["Gray • 41", 1199, 690, 665], ["Gray • 42", 1199, 690, 665], ["Gray • 43", 1199, 690, 665], ["Gray • 44", 1199, 690, 665], ["Gray • 45", 1199, 690, 665], ["Navy • 41", 1199, 690, 665], ["Navy • 42", 1199, 690, 665], ["Navy • 43", 1199, 690, 665], ["Navy • 44", 1199, 690, 665], ["Navy • 45", 1199, 690, 665], ["Beige • 41", 1199, 690, 665], ["Beige • 42", 1199, 690, 665], ["Beige • 43", 1199, 690, 665], ["Beige • 44", 1199, 690, 665], ["Beige • 45", 1199, 690, 665]], 1, 690, 690], ["M3", [["Gray • 45", 2377, 1280, 1255], ["blue • 45", 2377, 1280, 1255], ["blue • 44", 2377, 1280, 1255], ["blue • 43", 2377, 1280, 1255], ["Gray • 42", 2377, 1280, 1255], ["white • 41", 2377, 1280, 1255], ["Gray • 41", 2377, 1280, 1255], ["Gray • 41", 2749, 1465, 1440], ["Gray • 42", 2749, 1465, 1440], ["Gray • 43", 2749, 1465, 1440], ["Gray • 44", 2749, 1465, 1440], ["Gray • 45", 2749, 1465, 1440], ["Blue • 41", 2749, 1465, 1440], ["Blue • 42", 2749, 1465, 1440], ["Blue • 43", 2749, 1465, 1440], ["Blue • 44", 2749, 1465, 1440], ["Blue • 45", 2749, 1465, 1440], ["White • 41", 2749, 1465, 1440], ["White • 42", 2749, 1465, 1440], ["White • 43", 2749, 1465, 1440], ["White • 44", 2749, 1465, 1440], ["White • 45", 2749, 1465, 1440], ["Black • 41", 2749, 1465, 1440], ["Black • 42", 2749, 1465, 1440], ["Black • 43", 2749, 1465, 1440], ["Black • 44", 2749, 1465, 1440], ["Black • 45", 2749, 1465, 1440]], 0, 1280, 1465], ["M15", [["green • 45", 2479, 1330, 1305], ["Gray • 44", 2479, 1330, 1305], ["black • 44", 2479, 1330, 1305], ["green • 44", 2479, 1330, 1305], ["Gray • 42", 2479, 1330, 1305], ["black • 41", 2479, 1330, 1305], ["Black • 41", 1899, 1040, 1015], ["Black • 42", 1899, 1040, 1015], ["Black • 43", 1899, 1040, 1015], ["Black • 44", 1899, 1040, 1015], ["Black • 45", 1899, 1040, 1015], ["Green • 41", 1899, 1040, 1015], ["Green • 42", 1899, 1040, 1015], ["Green • 43", 1899, 1040, 1015], ["Green • 44", 1899, 1040, 1015], ["Green • 45", 1899, 1040, 1015], ["Gray • 41", 1899, 1040, 1015], ["Gray • 42", 1899, 1040, 1015], ["Gray • 43", 1899, 1040, 1015], ["Gray • 44", 1899, 1040, 1015], ["Gray • 45", 1899, 1040, 1015], ["White • 41", 1899, 1040, 1015], ["White • 42", 1899, 1040, 1015], ["White • 43", 1899, 1040, 1015], ["White • 44", 1899, 1040, 1015], ["White • 45", 1899, 1040, 1015]], 0, 1040, 1330], ["OLD", [["white • 42", 1085, 635, 610], ["beige • 42", 1085, 635, 610], ["white • 41", 1085, 635, 610], ["Gray • 41", 1199, 690, 665], ["Gray • 42", 1199, 690, 665], ["Gray • 43", 1199, 690, 665], ["Gray • 44", 1199, 690, 665], ["Gray • 45", 1199, 690, 665], ["Navy • 41", 1199, 690, 665], ["Navy • 42", 1199, 690, 665], ["Navy • 43", 1199, 690, 665], ["Navy • 44", 1199, 690, 665], ["Navy • 45", 1199, 690, 665], ["Brown • 41", 1199, 690, 665], ["Brown • 42", 1199, 690, 665], ["Brown • 43", 1199, 690, 665], ["Brown • 44", 1199, 690, 665], ["Brown • 45", 1199, 690, 665], ["Black • 41", 1199, 690, 665], ["Black • 42", 1199, 690, 665], ["Black • 43", 1199, 690, 665], ["Black • 44", 1199, 690, 665], ["Black • 45", 1199, 690, 665]], 0, 635, 690], ["M27", [["White/Black • 41", 2349, 1265, 1240], ["White/Black • 42", 2349, 1265, 1240], ["White/Black • 43", 2349, 1265, 1240], ["White/Black • 44", 2349, 1265, 1240], ["White/Black • 45", 2349, 1265, 1240], ["Black • 41", 2349, 1265, 1240], ["Black • 42", 2349, 1265, 1240], ["Black • 43", 2349, 1265, 1240], ["Black • 44", 2349, 1265, 1240], ["Black • 45", 2349, 1265, 1240], ["White • 41", 2349, 1265, 1240], ["White • 42", 2349, 1265, 1240], ["White • 43", 2349, 1265, 1240], ["White • 44", 2349, 1265, 1240], ["White • 45", 2349, 1265, 1240], ["Gray • 41", 2349, 1265, 1240], ["Gray • 42", 2349, 1265, 1240], ["Gray • 43", 2349, 1265, 1240], ["Gray • 44", 2349, 1265, 1240], ["Gray • 45", 2349, 1265, 1240]], 1, 1265, 1265], ["M410", [["Black • 42", 1899, 1040, 1015], ["Black • 43", 1899, 1040, 1015], ["Black • 44", 1899, 1040, 1015], ["Black • 45", 1899, 1040, 1015], ["Black • 46", 1899, 1040, 1015], ["White/Blue • 42", 1899, 1040, 1015], ["White/Blue • 43", 1899, 1040, 1015], ["White/Blue • 44", 1899, 1040, 1015], ["White/Blue • 45", 1899, 1040, 1015], ["White/Blue • 46", 1899, 1040, 1015], ["White/Red • 42", 1899, 1040, 1015], ["White/Red • 43", 1899, 1040, 1015], ["White/Red • 44", 1899, 1040, 1015], ["White/Red • 45", 1899, 1040, 1015], ["White/Red • 46", 1899, 1040, 1015], ["White/Black • 42", 1899, 1040, 1015], ["White/Black • 43", 1899, 1040, 1015], ["White/Black • 44", 1899, 1040, 1015], ["White/Black • 45", 1899, 1040, 1015], ["White/Black • 46", 1899, 1040, 1015]], 1, 1040, 1040], ["M9", [["Gray • 41", 2149, 1165, 1140], ["Gray • 42", 2149, 1165, 1140], ["Gray • 43", 2149, 1165, 1140], ["Gray • 44", 2149, 1165, 1140], ["Gray • 45", 2149, 1165, 1140], ["Black/White • 41", 2149, 1165, 1140], ["Black/White • 42", 2149, 1165, 1140], ["Black/White • 43", 2149, 1165, 1140], ["Black/White • 44", 2149, 1165, 1140], ["Black/White • 45", 2149, 1165, 1140], ["White • 41", 2149, 1165, 1140], ["White • 42", 2149, 1165, 1140], ["White • 43", 2149, 1165, 1140], ["White • 44", 2149, 1165, 1140], ["White • 45", 2149, 1165, 1140], ["Black • 41", 2149, 1165, 1140], ["Black • 42", 2149, 1165, 1140], ["Black • 43", 2149, 1165, 1140], ["Black • 44", 2149, 1165, 1140], ["Black • 45", 2149, 1165, 1140]], 1, 1165, 1165], ["MA34", [["Black • 42", 2549, 1365, 1340], ["Black • 43", 2549, 1365, 1340], ["Black • 44", 2549, 1365, 1340], ["Black • 45", 2549, 1365, 1340], ["Black • 46", 2549, 1365, 1340], ["Navy • 42", 2549, 1365, 1340], ["Navy • 43", 2549, 1365, 1340], ["Navy • 44", 2549, 1365, 1340], ["Navy • 45", 2549, 1365, 1340], ["Navy • 46", 2549, 1365, 1340], ["Black/White • 42", 2549, 1365, 1340], ["Black/White • 43", 2549, 1365, 1340], ["Black/White • 44", 2549, 1365, 1340], ["Black/White • 45", 2549, 1365, 1340], ["Black/White • 46", 2549, 1365, 1340], ["Gray • 42", 2549, 1365, 1340], ["Gray • 43", 2549, 1365, 1340], ["Gray • 44", 2549, 1365, 1340], ["Gray • 45", 2549, 1365, 1340], ["Gray • 46", 2549, 1365, 1340]], 1, 1365, 1365], ["MA39", [["White/Black • 42", 2449, 1315, 1290], ["White/Black • 43", 2449, 1315, 1290], ["White/Black • 44", 2449, 1315, 1290], ["White/Black • 45", 2449, 1315, 1290], ["White/Black • 46", 2449, 1315, 1290], ["White • 42", 2449, 1315, 1290], ["White • 43", 2449, 1315, 1290], ["White • 44", 2449, 1315, 1290], ["White • 45", 2449, 1315, 1290], ["White • 46", 2449, 1315, 1290], ["Black • 42", 2449, 1315, 1290], ["Black • 43", 2449, 1315, 1290], ["Black • 44", 2449, 1315, 1290], ["Black • 45", 2449, 1315, 1290], ["Black • 46", 2449, 1315, 1290], ["Gray • 42", 2449, 1315, 1290], ["Gray • 43", 2449, 1315, 1290], ["Gray • 44", 2449, 1315, 1290], ["Gray • 45", 2449, 1315, 1290], ["Gray • 46", 2449, 1315, 1290]], 1, 1315, 1315], ["M1", [["white • 45", 2450, 1315, 1290], ["Gray • 45", 2450, 1315, 1290], ["kahliu • 45", 2450, 1315, 1290], ["white • 44", 2450, 1315, 1290], ["Gray • 44", 2450, 1315, 1290], ["kahliu • 44", 2450, 1315, 1290], ["black • 44", 2450, 1315, 1290], ["white • 43", 2450, 1315, 1290], ["Gray • 43", 2450, 1315, 1290], ["kahliu • 43", 2450, 1315, 1290], ["black • 43", 2450, 1315, 1290], ["white • 42", 2479, 1330, 1305], ["Gray • 42", 2450, 1315, 1290], ["kahliu • 42", 2450, 1315, 1290], ["black • 42", 2450, 1315, 1290], ["white • 41", 2479, 1330, 1305], ["Gray • 41", 2450, 1315, 1290], ["kahliu • 41", 2450, 1315, 1290], ["black • 41", 2450, 1315, 1290]], 0, 1315, 1330], ["MA36", [["Beige • 43", 1949, 1065, 1040], ["Beige • 44", 1949, 1065, 1040], ["Beige • 45", 1949, 1065, 1040], ["Beige • 46", 1949, 1065, 1040], ["Black • 42", 1949, 1065, 1040], ["Black • 43", 1949, 1065, 1040], ["Black • 44", 1949, 1065, 1040], ["Black • 45", 1949, 1065, 1040], ["Black • 46", 1949, 1065, 1040], ["White • 42", 1949, 1065, 1040], ["White • 43", 1949, 1065, 1040], ["White • 44", 1949, 1065, 1040], ["White • 45", 1949, 1065, 1040], ["White • 46", 1949, 1065, 1040], ["Gray • 42", 1949, 1065, 1040], ["Gray • 43", 1949, 1065, 1040], ["Gray • 44", 1949, 1065, 1040], ["Gray • 45", 1949, 1065, 1040], ["Gray • 46", 1949, 1065, 1040]], 1, 1065, 1065], ["MA411", [["Black • 42", 2749, 1465, 1440], ["Black • 43", 2749, 1465, 1440], ["Black • 44", 2749, 1465, 1440], ["Black • 45", 2749, 1465, 1440], ["Black • 46", 2749, 1465, 1440], ["White • 42", 2749, 1465, 1440], ["White • 43", 2749, 1465, 1440], ["White • 45", 2749, 1465, 1440], ["White • 46", 2749, 1465, 1440], ["Gray • 42", 2749, 1465, 1440], ["Gray • 43", 2749, 1465, 1440], ["Gray • 44", 2749, 1465, 1440], ["Gray • 45", 2749, 1465, 1440], ["Gray • 46", 2749, 1465, 1440], ["Black/White • 42", 2749, 1465, 1440], ["Black/White • 43", 2749, 1465, 1440], ["Black/White • 44", 2749, 1465, 1440], ["Black/White • 45", 2749, 1465, 1440], ["Black/White • 46", 2749, 1465, 1440]], 1, 1465, 1465], ["S1040P", [["kahliu • 49", 1750, 965, 940], ["Gray • 46", 1750, 965, 940], ["Brown • 47", 1349, 765, 740], ["Brown • 48", 1349, 765, 740], ["Brown • 49", 1349, 765, 740], ["Brown • 50", 1349, 765, 740], ["White/Black • 46", 1349, 765, 740], ["White/Black • 47", 1349, 765, 740], ["White/Black • 48", 1349, 765, 740], ["White/Black • 49", 1349, 765, 740], ["White/Black • 50", 1349, 765, 740], ["Gray • 46", 1499, 840, 815], ["Gray • 47", 1499, 840, 815], ["Gray • 48", 1499, 840, 815], ["Gray • 49", 1499, 840, 815], ["Gray • 50", 1499, 840, 815], ["Black • 48", 1499, 840, 815]], 0, 765, 965], ["B39", [["Black • 37", 2649, 1415, 1390], ["Black • 38", 2649, 1415, 1390], ["Black • 39", 2649, 1415, 1390], ["Black • 40", 2649, 1415, 1390], ["Black • 41", 2649, 1415, 1390], ["White • 37", 2649, 1415, 1390], ["White • 38", 2649, 1415, 1390], ["White • 39", 2649, 1415, 1390], ["White • 40", 2649, 1415, 1390], ["White • 41", 2649, 1415, 1390], ["Gray • 37", 2649, 1415, 1390], ["Gray • 38", 2649, 1415, 1390], ["Gray • 39", 2649, 1415, 1390], ["Gray • 40", 2649, 1415, 1390], ["Gray • 41", 2649, 1415, 1390]], 1, 1415, 1415], ["F16", [["Khaki • 41", 1649, 915, 890], ["Khaki • 42", 1649, 915, 890], ["Khaki • 43", 1649, 915, 890], ["Khaki • 44", 1649, 915, 890], ["Khaki • 45", 1649, 915, 890], ["Gray • 41", 1649, 915, 890], ["Gray • 42", 1649, 915, 890], ["Gray • 43", 1649, 915, 890], ["Gray • 44", 1649, 915, 890], ["Gray • 45", 1649, 915, 890], ["Black • 41", 1649, 915, 890], ["Black • 42", 1649, 915, 890], ["Black • 43", 1649, 915, 890], ["Black • 44", 1649, 915, 890], ["Black • 45", 1649, 915, 890]], 1, 915, 915], ["HH3", [["White • 41", 1149, 665, 640], ["White • 42", 1149, 665, 640], ["White • 43", 1149, 665, 640], ["White • 44", 1149, 665, 640], ["White • 45", 1149, 665, 640], ["Black • 41", 1149, 665, 640], ["Black • 42", 1149, 665, 640], ["Black • 43", 1149, 665, 640], ["Black • 44", 1149, 665, 640], ["Black • 45", 1149, 665, 640], ["Gray • 41", 1149, 665, 640], ["Gray • 42", 1149, 665, 640], ["Gray • 43", 1149, 665, 640], ["Gray • 44", 1149, 665, 640], ["Gray • 45", 1149, 665, 640]], 1, 665, 665], ["L488", [["White • 41", 1149, 665, 640], ["White • 42", 1149, 665, 640], ["White • 43", 1149, 665, 640], ["White • 44", 1149, 665, 640], ["White • 45", 1149, 665, 640], ["Gray • 41", 1149, 665, 640], ["Gray • 42", 1149, 665, 640], ["Gray • 43", 1149, 665, 640], ["Gray • 44", 1149, 665, 640], ["Gray • 45", 1149, 665, 640], ["Black/White • 41", 1149, 665, 640], ["Black/White • 42", 1149, 665, 640], ["Black/White • 43", 1149, 665, 640], ["Black/White • 44", 1149, 665, 640], ["Black/White • 45", 1149, 665, 640]], 1, 665, 665], ["OAL", [["Green • 41", 1299, 740, 715], ["Green • 42", 1299, 740, 715], ["Green • 43", 1299, 740, 715], ["Green • 44", 1299, 740, 715], ["Green • 45", 1299, 740, 715], ["White • 41", 1299, 740, 715], ["White • 42", 1299, 740, 715], ["White • 43", 1299, 740, 715], ["White • 44", 1299, 740, 715], ["White • 45", 1299, 740, 715], ["White/Black • 41", 1299, 740, 715], ["White/Black • 42", 1299, 740, 715], ["White/Black • 43", 1299, 740, 715], ["White/Black • 44", 1299, 740, 715], ["White/Black • 45", 1299, 740, 715]], 1, 740, 740], ["V2245", [["Beige • 41", 1449, 815, 790], ["Beige • 42", 1449, 815, 790], ["Beige • 43", 1449, 815, 790], ["Beige • 44", 1449, 815, 790], ["Beige • 45", 1449, 815, 790], ["Black • 41", 1449, 815, 790], ["Black • 42", 1449, 815, 790], ["Black • 43", 1449, 815, 790], ["Black • 44", 1449, 815, 790], ["Black • 45", 1449, 815, 790], ["Gray • 41", 1449, 815, 790], ["Gray • 42", 1449, 815, 790], ["Gray • 43", 1449, 815, 790], ["Gray • 44", 1449, 815, 790], ["Gray • 45", 1449, 815, 790]], 1, 815, 815], ["V2252", [["Black • 41", 1449, 815, 790], ["Black • 42", 1449, 815, 790], ["Black • 43", 1449, 815, 790], ["Black • 44", 1449, 815, 790], ["Black • 45", 1449, 815, 790], ["Gray • 41", 1449, 815, 790], ["Gray • 42", 1449, 815, 790], ["Gray • 43", 1449, 815, 790], ["Gray • 44", 1449, 815, 790], ["Gray • 45", 1449, 815, 790], ["Beige • 41", 1449, 815, 790], ["Beige • 42", 1449, 815, 790], ["Beige • 43", 1449, 815, 790], ["Beige • 44", 1449, 815, 790], ["Beige • 45", 1449, 815, 790]], 1, 815, 815], ["V2254", [["White • 41", 1449, 815, 790], ["White • 42", 1449, 815, 790], ["White • 43", 1449, 815, 790], ["White • 44", 1449, 815, 790], ["White • 45", 1449, 815, 790], ["Black • 41", 1449, 815, 790], ["Black • 42", 1449, 815, 790], ["Black • 43", 1449, 815, 790], ["Black • 44", 1449, 815, 790], ["Black • 45", 1449, 815, 790], ["Beige • 41", 1449, 815, 790], ["Beige • 42", 1449, 815, 790], ["Beige • 43", 1449, 815, 790], ["Beige • 44", 1449, 815, 790], ["Beige • 45", 1449, 815, 790]], 1, 815, 815], ["VTB02", [["White • 41", 1449, 815, 790], ["White • 42", 1449, 815, 790], ["White • 43", 1449, 815, 790], ["White • 44", 1449, 815, 790], ["White • 45", 1449, 815, 790], ["Black • 41", 1449, 815, 790], ["Black • 42", 1449, 815, 790], ["Black • 43", 1449, 815, 790], ["Black • 44", 1449, 815, 790], ["Black • 45", 1449, 815, 790], ["Navy • 41", 1449, 815, 790], ["Navy • 42", 1449, 815, 790], ["Navy • 43", 1449, 815, 790], ["Navy • 44", 1449, 815, 790], ["Navy • 45", 1449, 815, 790]], 1, 815, 815], ["VTB06", [["White • 41", 1449, 815, 790], ["White • 42", 1449, 815, 790], ["White • 43", 1449, 815, 790], ["White • 44", 1449, 815, 790], ["White • 45", 1449, 815, 790], ["Black • 41", 1449, 815, 790], ["Black • 42", 1449, 815, 790], ["Black • 43", 1449, 815, 790], ["Black • 44", 1449, 815, 790], ["Black • 45", 1449, 815, 790], ["Navy • 41", 1449, 815, 790], ["Navy • 42", 1449, 815, 790], ["Navy • 43", 1449, 815, 790], ["Navy • 44", 1449, 815, 790], ["Navy • 45", 1449, 815, 790]], 1, 815, 815], ["VTB9", [["White • 41", 1499, 840, 815], ["White • 42", 1499, 840, 815], ["White • 43", 1499, 840, 815], ["White • 44", 1499, 840, 815], ["White • 45", 1499, 840, 815], ["Black • 41", 1499, 840, 815], ["Black • 42", 1499, 840, 815], ["Black • 43", 1499, 840, 815], ["Black • 44", 1499, 840, 815], ["Black • 45", 1499, 840, 815], ["Beige • 41", 1499, 840, 815], ["Beige • 42", 1499, 840, 815], ["Beige • 43", 1499, 840, 815], ["Beige • 44", 1499, 840, 815], ["Beige • 45", 1499, 840, 815]], 1, 840, 840], ["M12", [["kahliu • 45", 2479, 1330, 1305], ["black • 44", 2479, 1330, 1305], ["white • 44", 2479, 1330, 1305], ["beige • 44", 2479, 1330, 1305], ["kahliu • 44", 2479, 1330, 1305], ["black • 43", 2479, 1330, 1305], ["white • 43", 2479, 1330, 1305], ["beige • 43", 2479, 1330, 1305], ["kahliu • 43", 2479, 1330, 1305], ["black • 42", 2479, 1330, 1305], ["white • 42", 2479, 1330, 1305], ["kahliu • 42", 2479, 1330, 1305], ["white • 41", 2479, 1330, 1305], ["kahliu • 41", 2479, 1330, 1305]], 1, 1330, 1330], ["M214", [["Black • 41", 949, 565, 540], ["Black • 42", 949, 565, 540], ["Black • 43", 949, 565, 540], ["Black • 44", 949, 565, 540], ["Gray • 41", 949, 565, 540], ["Gray • 42", 949, 565, 540], ["Gray • 43", 949, 565, 540], ["Gray • 44", 949, 565, 540], ["Gray • 45", 949, 565, 540], ["Black/White • 41", 949, 565, 540], ["Black/White • 42", 949, 565, 540], ["Black/White • 43", 949, 565, 540], ["Black/White • 44", 949, 565, 540], ["Black/White • 45", 949, 565, 540]], 1, 565, 565], ["B7", [["White/Navy • 41", 2999, 1590, 1565], ["White/Navy • 43", 2999, 1590, 1565], ["White/Navy • 45", 2999, 1590, 1565], ["White/Black • 41", 2999, 1590, 1565], ["White/Black • 42", 2999, 1590, 1565], ["White/Black • 43", 2999, 1590, 1565], ["White/Black • 44", 2999, 1590, 1565], ["White/Black • 45", 2999, 1590, 1565], ["Black • 41", 2999, 1590, 1565], ["Black • 42", 2999, 1590, 1565], ["Black • 43", 2999, 1590, 1565], ["Black • 44", 2999, 1590, 1565], ["Black • 45", 2999, 1590, 1565]], 1, 1590, 1590], ["M14", [["kahliu • 45", 2188, 1185, 1160], ["blue • 45", 2188, 1185, 1160], ["kahliu • 44", 2188, 1185, 1160], ["blue • 44", 2188, 1185, 1160], ["black • 44", 2188, 1185, 1160], ["kahliu • 43", 2188, 1185, 1160], ["blue • 43", 2188, 1185, 1160], ["kahliu • 42", 2188, 1185, 1160], ["blue • 42", 2188, 1185, 1160], ["white • 42", 2188, 1185, 1160], ["kahliu • 41", 2188, 1185, 1160], ["blue • 41", 2188, 1185, 1160], ["white • 41", 2188, 1185, 1160]], 1, 1185, 1185], ["AT127", [["Black • 41", 2699, 1440, 1415], ["Black • 43", 2699, 1440, 1415], ["Black • 45", 2699, 1440, 1415], ["White • 41", 2699, 1440, 1415], ["White • 43", 2699, 1440, 1415], ["White • 45", 2699, 1440, 1415], ["Gray • 42", 2699, 1440, 1415], ["Gray • 43", 2699, 1440, 1415], ["Gray • 44", 2699, 1440, 1415], ["Black/White • 42", 2699, 1440, 1415], ["Black/White • 43", 2699, 1440, 1415], ["Black/White • 44", 2699, 1440, 1415]], 1, 1440, 1440], ["AT84", [["Black • 41", 2049, 1115, 1090], ["Black • 43", 2049, 1115, 1090], ["Black • 45", 2049, 1115, 1090], ["White • 41", 2049, 1115, 1090], ["White • 43", 2049, 1115, 1090], ["White • 45", 2049, 1115, 1090], ["Black/White • 42", 2049, 1115, 1090], ["Black/White • 43", 2049, 1115, 1090], ["Black/White • 44", 2049, 1115, 1090], ["Gray • 42", 2049, 1115, 1090], ["Gray • 43", 2049, 1115, 1090], ["Gray • 44", 2049, 1115, 1090]], 1, 1115, 1115], ["AT97", [["White • 42", 2799, 1490, 1465], ["White • 43", 2799, 1490, 1465], ["White • 44", 2799, 1490, 1465], ["Black • 42", 2799, 1490, 1465], ["Black • 43", 2799, 1490, 1465], ["Black • 44", 2799, 1490, 1465], ["White/Black • 41", 2799, 1490, 1465], ["White/Black • 43", 2799, 1490, 1465], ["White/Black • 45", 2799, 1490, 1465], ["Gray • 41", 2799, 1490, 1465], ["Gray • 43", 2799, 1490, 1465], ["Gray • 45", 2799, 1490, 1465]], 1, 1490, 1490], ["CK16", [["White • 46", 1249, 715, 690], ["White • 47", 1249, 715, 690], ["White • 48", 1249, 715, 690], ["White • 49", 1249, 715, 690], ["Gray • 46", 1249, 715, 690], ["Gray • 47", 1249, 715, 690], ["Gray • 48", 1249, 715, 690], ["Gray • 49", 1249, 715, 690], ["White/Black • 46", 1249, 715, 690], ["White/Black • 47", 1249, 715, 690], ["White/Black • 48", 1249, 715, 690], ["White/Black • 49", 1249, 715, 690]], 1, 715, 715], ["M5", [["black • 45", 2800, 1490, 1465], ["Gray • 45", 2800, 1490, 1465], ["Ramdi • 45", 2800, 1490, 1465], ["white • 45", 2800, 1490, 1465], ["black • 44", 2800, 1490, 1465], ["Gray • 44", 2800, 1490, 1465], ["Ramdi • 44", 2800, 1490, 1465], ["white • 44", 2800, 1490, 1465], ["Ramdi • 43", 2800, 1490, 1465], ["white • 43", 2800, 1490, 1465], ["Gray • 41", 2800, 1490, 1465], ["Ramdi • 41", 2800, 1490, 1465]], 1, 1490, 1490], ["OCK", [["White • 41", 1099, 640, 615], ["White • 42", 1099, 640, 615], ["White • 43", 1099, 640, 615], ["White • 44", 1099, 640, 615], ["White • 45", 1099, 640, 615], ["White • 46", 1099, 640, 615], ["Black/White • 41", 1099, 640, 615], ["Black/White • 42", 1099, 640, 615], ["Black/White • 43", 1099, 640, 615], ["Black/White • 44", 1099, 640, 615], ["Black/White • 45", 1099, 640, 615], ["Black/White • 46", 1099, 640, 615]], 1, 640, 640], ["S39", [["White/Black • 41", 2449, 1315, 1290], ["White/Black • 43", 2449, 1315, 1290], ["White/Black • 45", 2449, 1315, 1290], ["Gray • 41", 2449, 1315, 1290], ["Gray • 43", 2449, 1315, 1290], ["Gray • 45", 2449, 1315, 1290], ["Black • 42", 2449, 1315, 1290], ["Black • 43", 2449, 1315, 1290], ["Black • 44", 2449, 1315, 1290], ["White • 42", 2449, 1315, 1290], ["White • 43", 2449, 1315, 1290], ["White • 44", 2449, 1315, 1290]], 1, 1315, 1315], ["WT08", [["White • 41", 2449, 1315, 1290], ["White • 43", 2449, 1315, 1290], ["White • 45", 2449, 1315, 1290], ["Black/White • 41", 2449, 1315, 1290], ["Black/White • 43", 2449, 1315, 1290], ["Black/White • 45", 2449, 1315, 1290], ["Gray • 42", 2449, 1315, 1290], ["Gray • 43", 2449, 1315, 1290], ["Gray • 44", 2449, 1315, 1290], ["Black • 42", 2449, 1315, 1290], ["Black • 43", 2449, 1315, 1290], ["Black • 44", 2449, 1315, 1290]], 1, 1315, 1315], ["X64", [["White • 42", 2099, 1140, 1115], ["White • 44", 2099, 1140, 1115], ["White • 46", 2099, 1140, 1115], ["Black • 41", 2099, 1140, 1115], ["Black • 43", 2099, 1140, 1115], ["Black • 45", 2099, 1140, 1115], ["Gray • 42", 2099, 1140, 1115], ["Gray • 44", 2099, 1140, 1115], ["Gray • 46", 2099, 1140, 1115], ["Black/White • 41", 2099, 1140, 1115], ["Black/White • 44", 2099, 1140, 1115], ["Black/White • 46", 2099, 1140, 1115]], 1, 1140, 1140], ["S46", [["Gray • 41", 1949, 1065, 1040], ["Gray • 43", 1949, 1065, 1040], ["Gray • 45", 1949, 1065, 1040], ["Navy • 41", 1949, 1065, 1040], ["Navy • 43", 1949, 1065, 1040], ["Navy • 45", 1949, 1065, 1040], ["Black • 42", 1949, 1065, 1040], ["Black • 43", 1949, 1065, 1040], ["Black • 44", 1949, 1065, 1040], ["White • 42", 1949, 1065, 1040], ["White • 44", 1949, 1065, 1040]], 1, 1065, 1065], ["WT21", [["Black • 43", 2799, 1490, 1465], ["Black • 45", 2799, 1490, 1465], ["White/Black • 41", 2799, 1490, 1465], ["White/Black • 43", 2799, 1490, 1465], ["White/Black • 45", 2799, 1490, 1465], ["Yellow • 41", 2799, 1490, 1465], ["Yellow • 43", 2799, 1490, 1465], ["Yellow • 45", 2799, 1490, 1465], ["White • 42", 2799, 1490, 1465], ["White • 43", 2799, 1490, 1465], ["White • 44", 2799, 1490, 1465]], 1, 1490, 1490], ["A54", [["White • 41", 899, 540, 515], ["White • 42", 899, 540, 515], ["White • 43", 899, 540, 515], ["White • 44", 899, 540, 515], ["White • 45", 899, 540, 515], ["Black/White • 41", 899, 540, 515], ["Black/White • 42", 899, 540, 515], ["Black/White • 43", 899, 540, 515], ["Black/White • 44", 899, 540, 515], ["Black/White • 45", 899, 540, 515]], 1, 540, 540], ["A93", [["Gray • 45", 2520, 1350, 1325], ["black • 45", 2520, 1350, 1325], ["blue • 44", 2520, 1350, 1325], ["Gray • 44", 2520, 1350, 1325], ["black • 44", 2520, 1350, 1325], ["blue • 43", 2520, 1350, 1325], ["Gray • 43", 2520, 1350, 1325], ["black • 43", 2520, 1350, 1325], ["blue • 42", 2520, 1350, 1325], ["Gray • 42", 2520, 1350, 1325]], 1, 1350, 1350], ["AD0192", [["Blue • 41", 1699, 940, 915], ["Blue • 42", 1699, 940, 915], ["Blue • 43", 1699, 940, 915], ["Blue • 44", 1699, 940, 915], ["Blue • 45", 1699, 940, 915], ["Black • 41", 1699, 940, 915], ["Black • 42", 1699, 940, 915], ["Black • 43", 1699, 940, 915], ["Black • 44", 1699, 940, 915], ["Black • 45", 1699, 940, 915]], 1, 940, 940], ["AM111/11", [["White • 41", 849, 515, 490], ["White • 42", 849, 515, 490], ["White • 43", 849, 515, 490], ["White • 44", 849, 515, 490], ["White • 45", 849, 515, 490], ["Gray • 41", 849, 515, 490], ["Gray • 42", 849, 515, 490], ["Gray • 43", 849, 515, 490], ["Gray • 44", 849, 515, 490], ["Gray • 45", 849, 515, 490]], 1, 515, 515], ["AM113/11", [["Black • 41", 849, 515, 490], ["Black • 42", 849, 515, 490], ["Black • 43", 849, 515, 490], ["Black • 44", 849, 515, 490], ["Black • 45", 849, 515, 490], ["Khaki • 41", 849, 515, 490], ["Khaki • 42", 849, 515, 490], ["Khaki • 43", 849, 515, 490], ["Khaki • 44", 849, 515, 490], ["Khaki • 45", 849, 515, 490]], 1, 515, 515], ["AM115/11", [["Khaki • 41", 849, 515, 490], ["Khaki • 42", 849, 515, 490], ["Khaki • 43", 849, 515, 490], ["Khaki • 44", 849, 515, 490], ["Khaki • 45", 849, 515, 490], ["Gray • 41", 849, 515, 490], ["Gray • 42", 849, 515, 490], ["Gray • 43", 849, 515, 490], ["Gray • 44", 849, 515, 490], ["Gray • 45", 849, 515, 490]], 1, 515, 515], ["AM280/11", [["White • 41", 849, 515, 490], ["White • 42", 849, 515, 490], ["White • 43", 849, 515, 490], ["White • 44", 849, 515, 490], ["White • 45", 849, 515, 490], ["Black • 41", 849, 515, 490], ["Black • 42", 849, 515, 490], ["Black • 43", 849, 515, 490], ["Black • 44", 849, 515, 490], ["Black • 45", 849, 515, 490]], 1, 515, 515], ["AM283/11", [["Gray • 41", 849, 515, 490], ["Gray • 42", 849, 515, 490], ["Gray • 43", 849, 515, 490], ["Gray • 44", 849, 515, 490], ["Gray • 45", 849, 515, 490], ["Khaki • 41", 849, 515, 490], ["Khaki • 42", 849, 515, 490], ["Khaki • 43", 849, 515, 490], ["Khaki • 44", 849, 515, 490], ["Khaki • 45", 849, 515, 490]], 1, 515, 515], ["CK1002", [["White/Black • 41", 899, 540, 515], ["White/Black • 42", 899, 540, 515], ["White/Black • 43", 899, 540, 515], ["White/Black • 44", 899, 540, 515], ["White/Black • 45", 899, 540, 515], ["Gray • 41", 899, 540, 515], ["Gray • 42", 899, 540, 515], ["Gray • 43", 899, 540, 515], ["Gray • 44", 899, 540, 515], ["Gray • 45", 899, 540, 515]], 1, 540, 540], ["E13", [["Black • 41", 1249, 715, 690], ["Black • 42", 1249, 715, 690], ["Black • 43", 1249, 715, 690], ["Black • 44", 1249, 715, 690], ["Black • 45", 1249, 715, 690], ["Gray • 41", 1249, 715, 690], ["Gray • 42", 1249, 715, 690], ["Gray • 43", 1249, 715, 690], ["Gray • 44", 1249, 715, 690], ["Gray • 45", 1249, 715, 690]], 1, 715, 715], ["GF015", [["White • 41", 1699, 940, 915], ["White • 42", 1699, 940, 915], ["White • 43", 1699, 940, 915], ["White • 44", 1699, 940, 915], ["White • 45", 1699, 940, 915], ["Black • 41", 1699, 940, 915], ["Black • 42", 1699, 940, 915], ["Black • 43", 1699, 940, 915], ["Black • 44", 1699, 940, 915], ["Black • 45", 1699, 940, 915]], 1, 940, 940], ["H105/26", [["White • 41", 1249, 715, 690], ["White • 42", 1249, 715, 690], ["White • 43", 1249, 715, 690], ["White • 44", 1249, 715, 690], ["White • 45", 1249, 715, 690], ["Black • 41", 1249, 715, 690], ["Black • 42", 1249, 715, 690], ["Black • 43", 1249, 715, 690], ["Black • 44", 1249, 715, 690], ["Black • 45", 1249, 715, 690]], 1, 715, 715], ["H2008/22", [["White • 41", 1249, 715, 690], ["White • 42", 1249, 715, 690], ["White • 43", 1249, 715, 690], ["White • 44", 1249, 715, 690], ["White • 45", 1249, 715, 690], ["Black • 41", 1249, 715, 690], ["Black • 42", 1249, 715, 690], ["Black • 43", 1249, 715, 690], ["Black • 44", 1249, 715, 690], ["Black • 45", 1249, 715, 690]], 1, 715, 715], ["H537/27", [["White/Blue • 41", 1349, 765, 740], ["White/Blue • 42", 1349, 765, 740], ["White/Blue • 43", 1349, 765, 740], ["White/Blue • 44", 1349, 765, 740], ["White/Blue • 45", 1349, 765, 740], ["Gray • 41", 1349, 765, 740], ["Gray • 42", 1349, 765, 740], ["Gray • 43", 1349, 765, 740], ["Gray • 44", 1349, 765, 740], ["Gray • 45", 1349, 765, 740]], 1, 765, 765], ["H73", [["Black • 41", 899, 540, 515], ["Black • 42", 899, 540, 515], ["Black • 43", 899, 540, 515], ["Black • 44", 899, 540, 515], ["Black • 45", 899, 540, 515], ["White/Black • 41", 899, 540, 515], ["White/Black • 42", 899, 540, 515], ["White/Black • 43", 899, 540, 515], ["White/Black • 44", 899, 540, 515], ["White/Black • 45", 899, 540, 515]], 1, 540, 540], ["H90/60", [["White • 41", 1149, 665, 640], ["White • 42", 1149, 665, 640], ["White • 43", 1149, 665, 640], ["White • 44", 1149, 665, 640], ["White • 45", 1149, 665, 640], ["Black • 41", 1149, 665, 640], ["Black • 42", 1149, 665, 640], ["Black • 43", 1149, 665, 640], ["Black • 44", 1149, 665, 640], ["Black • 45", 1149, 665, 640]], 1, 665, 665], ["HH6", [["Black • 41", 1249, 715, 690], ["Black • 42", 1249, 715, 690], ["Black • 43", 1249, 715, 690], ["Black • 44", 1249, 715, 690], ["Black • 45", 1249, 715, 690], ["White/Beige • 41", 1249, 715, 690], ["White/Beige • 42", 1249, 715, 690], ["White/Beige • 43", 1249, 715, 690], ["White/Beige • 44", 1249, 715, 690], ["White/Beige • 45", 1249, 715, 690]], 1, 715, 715], ["M2002/21", [["Black/White • 41", 1249, 715, 690], ["Black/White • 42", 1249, 715, 690], ["Black/White • 43", 1249, 715, 690], ["Black/White • 44", 1249, 715, 690], ["Black/White • 45", 1249, 715, 690], ["Navy/White • 41", 1249, 715, 690], ["Navy/White • 42", 1249, 715, 690], ["Navy/White • 43", 1249, 715, 690], ["Navy/White • 44", 1249, 715, 690], ["Navy/White • 45", 1249, 715, 690]], 1, 715, 715], ["MIX47", [["blue • 45", 1662, 920, 895], ["Gray • 45", 1662, 920, 895], ["Ramdi • 45", 1662, 920, 895], ["black • 45", 1662, 920, 895], ["blue • 44", 1662, 920, 895], ["Ramdi • 44", 1662, 920, 895], ["black • 44", 1662, 920, 895], ["blue • 42", 1662, 920, 895], ["Gray • 42", 1662, 920, 895], ["Ramdi • 42", 1662, 920, 895]], 1, 920, 920], ["R169/12", [["Gray • 41", 899, 540, 515], ["Gray • 42", 899, 540, 515], ["Gray • 43", 899, 540, 515], ["Gray • 44", 899, 540, 515], ["Gray • 45", 899, 540, 515], ["Black • 41", 899, 540, 515], ["Black • 42", 899, 540, 515], ["Black • 43", 899, 540, 515], ["Black • 44", 899, 540, 515], ["Black • 45", 899, 540, 515]], 1, 540, 540], ["S1094", [["Black • 41", 1849, 1015, 990], ["Black • 42", 1849, 1015, 990], ["Black • 43", 1849, 1015, 990], ["Black • 44", 1849, 1015, 990], ["Black • 45", 1849, 1015, 990], ["Gray • 41", 1849, 1015, 990], ["Gray • 42", 1849, 1015, 990], ["Gray • 43", 1894, 1035, 1010], ["Gray • 44", 1849, 1015, 990], ["Gray • 45", 1849, 1015, 990]], 0, 1015, 1035], ["S115/11", [["White • 41", 849, 515, 490], ["White • 42", 849, 515, 490], ["White • 43", 849, 515, 490], ["White • 44", 849, 515, 490], ["White • 45", 849, 515, 490], ["Black • 41", 849, 515, 490], ["Black • 42", 849, 515, 490], ["Black • 43", 849, 515, 490], ["Black • 44", 849, 515, 490], ["Black • 45", 849, 515, 490]], 1, 515, 515], ["S150/27", [["White • 41", 1049, 615, 590], ["White • 42", 1049, 615, 590], ["White • 43", 1049, 615, 590], ["White • 44", 1049, 615, 590], ["White • 45", 1049, 615, 590], ["Black • 41", 1049, 615, 590], ["Black • 42", 1049, 615, 590], ["Black • 43", 1049, 615, 590], ["Black • 44", 1049, 615, 590], ["Black • 45", 1049, 615, 590]], 1, 615, 615], ["S151/21", [["White • 41", 1049, 615, 590], ["White • 42", 1049, 615, 590], ["White • 43", 1049, 615, 590], ["White • 44", 1049, 615, 590], ["White • 45", 1049, 615, 590], ["White/Black • 41", 1049, 615, 590], ["White/Black • 42", 1049, 615, 590], ["White/Black • 43", 1049, 615, 590], ["White/Black • 44", 1049, 615, 590], ["White/Black • 45", 1049, 615, 590]], 1, 615, 615], ["S152/26", [["White • 41", 1349, 765, 740], ["White • 42", 1349, 765, 740], ["White • 43", 1349, 765, 740], ["White • 44", 1349, 765, 740], ["White • 45", 1349, 765, 740], ["Black • 41", 1349, 765, 740], ["Black • 42", 1349, 765, 740], ["Black • 43", 1349, 765, 740], ["Black • 44", 1349, 765, 740], ["Black • 45", 1349, 765, 740]], 1, 765, 765], ["S281/11", [["Gray • 41", 899, 540, 515], ["Gray • 42", 899, 540, 515], ["Gray • 43", 899, 540, 515], ["Gray • 44", 899, 540, 515], ["Gray • 45", 899, 540, 515], ["Navy • 41", 899, 540, 515], ["Navy • 42", 899, 540, 515], ["Navy • 43", 899, 540, 515], ["Navy • 44", 899, 540, 515], ["Navy • 45", 899, 540, 515]], 1, 540, 540], ["S87/20", [["Black • 41", 1149, 665, 640], ["Black • 42", 1149, 665, 640], ["Black • 43", 1149, 665, 640], ["Black • 44", 1149, 665, 640], ["Black • 45", 1149, 665, 640], ["Black/White • 41", 1149, 665, 640], ["Black/White • 42", 1149, 665, 640], ["Black/White • 43", 1149, 665, 640], ["Black/White • 44", 1149, 665, 640], ["Black/White • 45", 1149, 665, 640]], 1, 665, 665], ["V2201A", [["Black • 41", 1949, 1065, 1040], ["Black • 42", 1949, 1065, 1040], ["Black • 43", 1949, 1065, 1040], ["Black • 44", 1949, 1065, 1040], ["Black • 45", 1949, 1065, 1040], ["Gray • 41", 1949, 1065, 1040], ["Gray • 42", 1949, 1065, 1040], ["Gray • 43", 1949, 1065, 1040], ["Gray • 44", 1949, 1065, 1040], ["Gray • 45", 1949, 1065, 1040]], 1, 1065, 1065], ["V2218/1", [["Black • 41", 1099, 640, 615], ["Black • 42", 1099, 640, 615], ["Black • 43", 1099, 640, 615], ["Black • 44", 1099, 640, 615], ["Black • 45", 1099, 640, 615], ["White • 41", 1099, 640, 615], ["White • 42", 1099, 640, 615], ["White • 43", 1099, 640, 615], ["White • 44", 1099, 640, 615], ["White • 45", 1099, 640, 615]], 1, 640, 640], ["V2220/1", [["Beige • 41", 1699, 940, 915], ["Beige • 42", 1699, 940, 915], ["Beige • 43", 1699, 940, 915], ["Beige • 44", 1699, 940, 915], ["Beige • 45", 1699, 940, 915], ["White • 41", 1699, 940, 915], ["White • 42", 1699, 940, 915], ["White • 43", 1699, 940, 915], ["White • 44", 1699, 940, 915], ["White • 45", 1699, 940, 915]], 1, 940, 940], ["V2220/2", [["Beige • 41", 1699, 940, 915], ["Beige • 42", 1699, 940, 915], ["Beige • 43", 1699, 940, 915], ["Beige • 44", 1699, 940, 915], ["Beige • 45", 1699, 940, 915], ["White • 41", 1699, 940, 915], ["White • 42", 1699, 940, 915], ["White • 43", 1699, 940, 915], ["White • 44", 1699, 940, 915], ["White • 45", 1699, 940, 915]], 1, 940, 940], ["V2220/3", [["White/Navy • 41", 1699, 940, 915], ["White/Navy • 42", 1699, 940, 915], ["White/Navy • 43", 1699, 940, 915], ["White/Navy • 44", 1699, 940, 915], ["White/Navy • 45", 1699, 940, 915], ["Black • 41", 1699, 940, 915], ["Black • 42", 1699, 940, 915], ["Black • 43", 1699, 940, 915], ["Black • 44", 1699, 940, 915], ["Black • 45", 1699, 940, 915]], 1, 940, 940], ["V2220/4", [["White/Navy • 41", 1699, 940, 915], ["White/Navy • 42", 1699, 940, 915], ["White/Navy • 43", 1699, 940, 915], ["White/Navy • 44", 1699, 940, 915], ["White/Navy • 45", 1699, 940, 915], ["White/Beige • 41", 1699, 940, 915], ["White/Beige • 42", 1699, 940, 915], ["White/Beige • 43", 1699, 940, 915], ["White/Beige • 44", 1699, 940, 915], ["White/Beige • 45", 1699, 940, 915]], 1, 940, 940], ["V2220D", [["Black • 41", 1699, 940, 915], ["Black • 42", 1699, 940, 915], ["Black • 43", 1699, 940, 915], ["Black • 44", 1699, 940, 915], ["Black • 45", 1699, 940, 915], ["Beige • 41", 1699, 940, 915], ["Beige • 42", 1699, 940, 915], ["Beige • 43", 1699, 940, 915], ["Beige • 44", 1699, 940, 915], ["Beige • 45", 1699, 940, 915]], 1, 940, 940], ["V2226/3", [["White • 41", 1699, 940, 915], ["White • 42", 1699, 940, 915], ["White • 43", 1699, 940, 915], ["White • 44", 1699, 940, 915], ["White • 45", 1699, 940, 915], ["Black • 41", 1699, 940, 915], ["Black • 42", 1699, 940, 915], ["Black • 43", 1699, 940, 915], ["Black • 44", 1699, 940, 915], ["Black • 45", 1699, 940, 915]], 1, 940, 940], ["V2227/2", [["Black • 41", 1799, 990, 965], ["Black • 42", 1799, 990, 965], ["Black • 43", 1799, 990, 965], ["Black • 44", 1799, 990, 965], ["Black • 45", 1799, 990, 965], ["Beige • 41", 1799, 990, 965], ["Beige • 42", 1799, 990, 965], ["Beige • 43", 1799, 990, 965], ["Beige • 44", 1799, 990, 965], ["Beige • 45", 1799, 990, 965]], 1, 990, 990], ["V2231/1", [["White • 45", 1249, 715, 690], ["White • 46", 1249, 715, 690], ["White • 47", 1249, 715, 690], ["White • 48", 1249, 715, 690], ["White • 49", 1249, 715, 690], ["Black • 45", 1249, 715, 690], ["Black • 46", 1249, 715, 690], ["Black • 47", 1249, 715, 690], ["Black • 48", 1249, 715, 690], ["Black • 49", 1249, 715, 690]], 1, 715, 715], ["V2241/2", [["White • 41", 1499, 840, 815], ["White • 42", 1499, 840, 815], ["White • 43", 1499, 840, 815], ["White • 44", 1499, 840, 815], ["White • 45", 1499, 840, 815], ["Black • 41", 1499, 840, 815], ["Black • 42", 1499, 840, 815], ["Black • 43", 1499, 840, 815], ["Black • 44", 1499, 840, 815], ["Black • 45", 1499, 840, 815]], 1, 840, 840], ["VALX2", [["Black • 41", 1349, 765, 740], ["Black • 42", 1349, 765, 740], ["Black • 43", 1349, 765, 740], ["Black • 44", 1349, 765, 740], ["Black • 45", 1349, 765, 740], ["White • 41", 1349, 765, 740], ["White • 42", 1349, 765, 740], ["White • 43", 1349, 765, 740], ["White • 44", 1349, 765, 740], ["White • 45", 1349, 765, 740]], 1, 765, 765], ["VBM05/2", [["White • 41", 1099, 640, 615], ["White • 42", 1099, 640, 615], ["White • 43", 1099, 640, 615], ["White • 44", 1099, 640, 615], ["White • 45", 1099, 640, 615], ["Black • 41", 1099, 640, 615], ["Black • 42", 1099, 640, 615], ["Black • 43", 1099, 640, 615], ["Black • 44", 1099, 640, 615], ["Black • 45", 1099, 640, 615]], 1, 640, 640], ["VDZ", [["Black • 41", 1699, 940, 915], ["Black • 42", 1699, 940, 915], ["Black • 43", 1699, 940, 915], ["Black • 44", 1699, 940, 915], ["Black • 45", 1699, 940, 915], ["White • 41", 1699, 940, 915], ["White • 42", 1699, 940, 915], ["White • 43", 1699, 940, 915], ["White • 44", 1699, 940, 915], ["White • 45", 1699, 940, 915]], 1, 940, 940], ["VRX2", [["White • 45", 1499, 840, 815], ["White • 46", 1499, 840, 815], ["White • 47", 1499, 840, 815], ["White • 48", 1499, 840, 815], ["White • 49", 1499, 840, 815], ["White/Black • 45", 1499, 840, 815], ["White/Black • 46", 1499, 840, 815], ["White/Black • 47", 1499, 840, 815], ["White/Black • 48", 1499, 840, 815], ["White/Black • 49", 1499, 840, 815]], 1, 840, 840], ["VS101", [["Gray • 41", 949, 565, 540], ["Gray • 42", 949, 565, 540], ["Gray • 43", 949, 565, 540], ["Gray • 44", 949, 565, 540], ["Gray • 45", 949, 565, 540], ["White/Black • 41", 949, 565, 540], ["White/Black • 42", 949, 565, 540], ["White/Black • 43", 949, 565, 540], ["White/Black • 44", 949, 565, 540], ["White/Black • 45", 949, 565, 540]], 1, 565, 565], ["VS107", [["Black • 41", 1149, 665, 640], ["Black • 42", 1149, 665, 640], ["Black • 43", 1149, 665, 640], ["Black • 44", 1149, 665, 640], ["Black • 45", 1149, 665, 640], ["White • 41", 1149, 665, 640], ["White • 42", 1149, 665, 640], ["White • 43", 1149, 665, 640], ["White • 44", 1149, 665, 640], ["White • 45", 1149, 665, 640]], 1, 665, 665], ["VS112", [["Navy • 43", 949, 565, 540], ["Navy • 44", 949, 565, 540], ["Navy • 45", 949, 565, 540], ["Navy • 46", 949, 565, 540], ["Navy • 47", 949, 565, 540], ["Gray • 43", 949, 565, 540], ["Gray • 44", 949, 565, 540], ["Gray • 45", 949, 565, 540], ["Gray • 46", 949, 565, 540], ["Gray • 47", 949, 565, 540]], 1, 565, 565], ["VS121", [["Gray • 41", 899, 540, 515], ["Gray • 42", 899, 540, 515], ["Gray • 43", 899, 540, 515], ["Gray • 44", 899, 540, 515], ["Gray • 45", 899, 540, 515], ["White/Black • 41", 899, 540, 515], ["White/Black • 42", 899, 540, 515], ["White/Black • 43", 899, 540, 515], ["White/Black • 44", 899, 540, 515], ["White/Black • 45", 899, 540, 515]], 1, 540, 540], ["VS15", [["Black • 43", 949, 565, 540], ["Black • 44", 949, 565, 540], ["Black • 45", 949, 565, 540], ["Black • 46", 949, 565, 540], ["Black • 47", 949, 565, 540], ["White • 43", 949, 565, 540], ["White • 44", 949, 565, 540], ["White • 45", 949, 565, 540], ["White • 46", 949, 565, 540], ["White • 47", 949, 565, 540]], 1, 565, 565], ["VS33", [["Black • 43", 949, 565, 540], ["Black • 44", 949, 565, 540], ["Black • 45", 949, 565, 540], ["Black • 46", 949, 565, 540], ["Black • 47", 949, 565, 540], ["White • 43", 949, 565, 540], ["White • 44", 949, 565, 540], ["White • 45", 949, 565, 540], ["White • 46", 949, 565, 540], ["White • 47", 949, 565, 540]], 1, 565, 565], ["VYH06", [["White • 41", 1699, 940, 915], ["White • 42", 1699, 940, 915], ["White • 43", 1699, 940, 915], ["White • 44", 1699, 940, 915], ["White • 45", 1699, 940, 915], ["Black • 41", 1699, 940, 915], ["Black • 42", 1699, 940, 915], ["Black • 43", 1699, 940, 915], ["Black • 44", 1699, 940, 915], ["Black • 45", 1699, 940, 915]], 1, 940, 940], ["AT63", [["white • 45", 2100, 1140, 1115], ["black • 45", 2100, 1140, 1115], ["white • 44", 2100, 1140, 1115], ["black • 44", 2100, 1140, 1115], ["black • 43", 2100, 1140, 1115], ["black • 42", 2100, 1140, 1115], ["black • 41", 2100, 1140, 1115], ["white • 40", 2100, 1140, 1115], ["black • 40", 2100, 1140, 1115]], 1, 1140, 1140], ["DARK LAND", [["DL-DC25", 120, 150, 125], ["DL-DC75", 300, 240, 215], ["DL-DC29", 150, 165, 140], ["DL-DC65", 300, 240, 215], ["DL-DC5", 50, 115, 90], ["DL-DC30", 100, 140, 115], ["DL-DC7", 70, 125, 100], ["DL-DC180", 100, 140, 115], ["DL-DC20", 100, 140, 115]], 0, 115, 240], ["DY0072M", [["White/Black • 41", 1149, 665, 640], ["White/Black • 43", 1149, 665, 640], ["White/Black • 44", 1149, 665, 640], ["White/Black • 45", 1149, 665, 640], ["Green • 41", 1149, 665, 640], ["Green • 42", 1149, 665, 640], ["Green • 43", 1149, 665, 640], ["Green • 44", 1149, 665, 640], ["Green • 45", 1149, 665, 640]], 1, 665, 665], ["S111/11", [["White • 41", 849, 515, 490], ["White • 42", 849, 515, 490], ["White • 43", 849, 515, 490], ["White • 44", 849, 515, 490], ["Black • 41", 849, 515, 490], ["Black • 42", 849, 515, 490], ["Black • 43", 849, 515, 490], ["Black • 44", 849, 515, 490], ["Black • 45", 849, 515, 490]], 1, 515, 515], ["H2007/22", [["White • 42", 1149, 665, 640], ["White • 43", 1149, 665, 640], ["White • 44", 1149, 665, 640], ["White • 45", 1149, 665, 640], ["Black • 41", 1149, 665, 640], ["Black • 43", 1149, 665, 640], ["Black • 44", 1149, 665, 640], ["Black • 45", 1149, 665, 640]], 1, 665, 665], ["OP", [["White×yellow • 42", 1085, 635, 610], ["red • 41", 1085, 635, 610], ["White×yellow • 41", 1085, 635, 610], ["White/Red • 42", 1199, 690, 665], ["White/Red • 43", 1199, 690, 665], ["White/Red • 44", 1199, 690, 665], ["White/Red • 45", 1199, 690, 665], ["White/Red • 46", 1199, 690, 665]], 0, 635, 690], ["ZL005", [["golden • 44", 1085, 635, 610], ["green • 43", 2485, 1335, 1310], ["beige • 43", 2485, 1335, 1310], ["golden • 42", 1085, 635, 610], ["Black×white • 42", 2485, 1335, 1310], ["beige • 42", 2485, 1335, 1310], ["beige • 41", 2485, 1335, 1310], ["golden • 40", 1085, 635, 610]], 0, 635, 1335], ["M11", [["white • 45", 2800, 1490, 1465], ["white • 44", 2800, 1490, 1465], ["black • 44", 2800, 1490, 1465], ["white • 43", 2800, 1490, 1465], ["black • 43", 2800, 1490, 1465], ["black • 42", 2800, 1490, 1465], ["white • 41", 2800, 1490, 1465]], 1, 1490, 1490], ["M22", [["blue • 44", 2188, 1185, 1160], ["Gray • 44", 2188, 1185, 1160], ["white • 43", 2188, 1185, 1160], ["blue • 42", 2188, 1185, 1160], ["white • 42", 2188, 1185, 1160], ["blue • 41", 2188, 1185, 1160], ["white • 41", 2188, 1185, 1160]], 1, 1185, 1185], ["OLUS", [["red • 42", 1085, 635, 610], ["red • 41", 1085, 635, 610], ["White/Red • 42", 1199, 690, 665], ["White/Red • 43", 1199, 690, 665], ["White/Red • 44", 1199, 690, 665], ["White/Red • 45", 1199, 690, 665], ["White/Red • 46", 1199, 690, 665]], 0, 635, 690], ["OLIPشمواه", [["Gamley • 45", 1085, 635, 610], ["Gamley • 44", 1085, 635, 610], ["beige • 42", 1085, 635, 610], ["beige • 41", 1085, 635, 610], ["Gamley • 41", 1085, 635, 610], ["black • 41", 1085, 635, 610]], 1, 635, 635], ["S15050", [["White/Black • 41", 1499, 840, 815], ["White/Black • 42", 1499, 840, 815], ["White/Black • 43", 1499, 840, 815], ["White/Black • 44", 1499, 840, 815], ["White/Black • 45", 1499, 840, 815], ["White/Black • 46", 1599, 890, 865]], 0, 840, 890], ["T1", [["Gray • 46", 315, 250, 225], ["white • 46", 315, 250, 225], ["white • 45", 315, 250, 225], ["Gray • 44", 315, 250, 225], ["white • 44", 315, 250, 225], ["Gray • 43", 315, 250, 225]], 1, 250, 250], ["T3", [["white • 45", 315, 250, 225], ["white • 44", 315, 250, 225], ["Gray • 44", 315, 250, 225], ["white • 43", 315, 250, 225], ["Gray • 43", 315, 250, 225], ["white • 42", 315, 250, 225]], 1, 250, 250], ["ALOS", [["White/Beige • 41", 1299, 740, 715], ["White/Beige • 42", 1299, 740, 715], ["White/Beige • 43", 1299, 740, 715], ["White/Beige • 44", 1299, 740, 715], ["White/Beige • 45", 1299, 740, 715]], 1, 740, 740], ["ALXQ40", [["Black • 41", 1649, 915, 890], ["Black • 42", 1649, 915, 890], ["Black • 43", 1649, 915, 890], ["Black • 44", 1649, 915, 890], ["Black • 45", 1649, 915, 890]], 1, 915, 915], ["DG1", [["white • 45", 1995, 1090, 1065], ["black • 44", 1995, 1090, 1065], ["white • 43", 1995, 1090, 1065], ["white • 42", 1995, 1090, 1065], ["white • 41", 1995, 1090, 1065]], 1, 1090, 1090], ["MIX944", [["black • 45", 1662, 920, 895], ["blue • 44", 1662, 920, 895], ["blue • 43", 1662, 920, 895], ["blue • 42", 1662, 920, 895], ["black • 42", 1662, 920, 895]], 1, 920, 920], ["OLDCOFFEE", [["41", 1199, 690, 665], ["42", 1199, 690, 665], ["43", 1199, 690, 665], ["44", 1199, 690, 665], ["45", 1199, 690, 665]], 1, 690, 690], ["POS", [["Gray • 41", 1399, 790, 765], ["Gray • 42", 1399, 790, 765], ["Gray • 43", 1399, 790, 765], ["Gray • 44", 1399, 790, 765], ["Gray • 45", 1399, 790, 765]], 1, 790, 790], ["S10011", [["White • 41", 1349, 765, 740], ["White • 42", 1349, 765, 740], ["White • 43", 1349, 765, 740], ["White • 44", 1349, 765, 740], ["White • 45", 1349, 765, 740]], 1, 765, 765], ["S1040COFFEE", [["42", 1299, 740, 715], ["43", 1299, 740, 715], ["44", 1299, 740, 715], ["45", 1299, 740, 715], ["46", 1299, 740, 715]], 1, 740, 740], ["T2", [["kahliu • 45", 315, 250, 225], ["kahliu • 44", 315, 250, 225], ["kahliu • 43", 315, 250, 225], ["kahliu • 42", 315, 250, 225], ["kahliu • 41", 315, 250, 225]], 1, 250, 250], ["T5", [["Gray • 46", 315, 250, 225], ["white • 45", 315, 250, 225], ["Gray • 43", 315, 250, 225], ["white • 43", 315, 250, 225], ["white • 42", 315, 250, 225]], 1, 250, 250], ["V2205", [["White • 41", 1149, 665, 640], ["White • 42", 1149, 665, 640], ["White • 43", 1149, 665, 640], ["White • 44", 1149, 665, 640], ["White • 45", 1149, 665, 640]], 1, 665, 665], ["V2229", [["White • 45", 1349, 765, 740], ["White • 46", 1349, 765, 740], ["White • 47", 1349, 765, 740], ["White • 48", 1349, 765, 740], ["White • 49", 1349, 765, 740]], 1, 765, 765], ["V242", [["Beige • 41", 1499, 840, 815], ["Beige • 42", 1499, 840, 815], ["Beige • 43", 1499, 840, 815], ["Beige • 44", 1499, 840, 815], ["Beige • 45", 1499, 840, 815]], 1, 840, 840], ["VS20", [["White • 41", 849, 515, 490], ["White • 42", 849, 515, 490], ["White • 43", 849, 515, 490], ["White • 44", 849, 515, 490], ["White • 45", 849, 515, 490]], 1, 515, 515], ["X10", [["White • 41", 899, 540, 515], ["White • 42", 899, 540, 515], ["White • 43", 899, 540, 515], ["White • 44", 899, 540, 515], ["White • 45", 899, 540, 515]], 1, 540, 540], ["F06", [["Move • 45", 1085, 635, 610], ["Lemon • 44", 1085, 635, 610], ["Move • 44", 1085, 635, 610], ["Lemon • 42", 1085, 635, 610]], 1, 635, 635], ["F146", [["black • 45", 770, 475, 450], ["black • 43", 770, 475, 450], ["black • 42", 770, 475, 450], ["black • 41", 770, 475, 450]], 1, 475, 475], ["M24", [["kahliu • 44", 2435, 1310, 1285], ["Gray • 44", 2435, 1310, 1285], ["white • 44", 2435, 1310, 1285], ["Gray • 43", 2435, 1310, 1285]], 1, 1310, 1310], ["VT02", [["black • 44", 1575, 880, 855], ["black • 43", 1575, 880, 855], ["black • 42", 1575, 880, 855], ["black • 41", 1575, 880, 855]], 1, 880, 880], ["ES101", [["fasufuri • 45", 1225, 705, 680], ["fasufuri • 44", 1225, 705, 680], ["fasufuri • 41", 1225, 705, 680]], 1, 705, 705], ["F020", [["black • 44", 2485, 1335, 1310], ["black • 42", 2485, 1335, 1310], ["black • 41", 2485, 1335, 1310]], 1, 1335, 1335], ["H105", [["beige • 44", 1050, 615, 590], ["beige • 41", 1050, 615, 590], ["beige • 40", 1050, 615, 590]], 1, 615, 615], ["HHR9", [["white • 45", 875, 530, 505], ["white • 41", 875, 530, 505], ["Gray • 41", 875, 530, 505]], 1, 530, 530], ["NB15", [["black • 42", 1400, 790, 765], ["black • 41", 875, 530, 505], ["black • 41", 1400, 790, 765]], 0, 530, 790], ["NB530", [["Gray • 45", 2362, 1270, 1245], ["Gray • 44", 2362, 1270, 1245], ["Gray • 43", 2362, 1270, 1245]], 1, 1270, 1270], ["OLIPEA7", [["White×black • 43", 1085, 635, 610], ["White×black • 42", 1085, 635, 610], ["White×black • 41", 1085, 635, 610]], 1, 635, 635], ["R7", [["black • 42", 822, 500, 475], ["beige • 42", 822, 500, 475], ["black • 41", 822, 500, 475]], 1, 500, 500], ["A79", [["black • 43", 1015, 600, 575], ["black • 42", 1015, 600, 575]], 1, 600, 600], ["A8", [["black • 44", 875, 530, 505], ["black • 43", 875, 530, 505]], 1, 530, 530], ["AJ35", [["blue • 43", 1312, 745, 720], ["blue • 41", 1312, 745, 720]], 1, 745, 745], ["BS41", [["beige • 43", 595, 390, 365], ["black • 41", 595, 390, 365]], 1, 390, 390], ["D65", [["black • 45", 805, 495, 470], ["black • 40", 805, 495, 470]], 1, 495, 495], ["H44", [["black • 44", 770, 475, 450], ["black • 42", 770, 475, 450]], 1, 475, 475], ["H70", [["White×black • 42", 875, 530, 505], ["black • 41", 875, 530, 505]], 1, 530, 530], ["M805", [["Gray • 45", 1225, 705, 680], ["Gray • 42", 1225, 705, 680]], 1, 705, 705], ["MAX534", [["Gray • 42", 858, 520, 495], ["white • 42", 858, 520, 495]], 1, 520, 520], ["OLAS", [["beige • 44", 1085, 635, 610], ["beige • 43", 1085, 635, 610]], 1, 635, 635], ["OLP", [["beige • 42", 1085, 635, 610], ["kahliu • 42", 1085, 635, 610]], 1, 635, 635], ["Q4", [["red • 42", 1085, 635, 610], ["red • 41", 1085, 635, 610]], 1, 635, 635], ["Q8108", [["fasufuri • 44", 2485, 1335, 1310], ["fasufuri • 42", 2485, 1335, 1310]], 1, 1335, 1335], ["R41", [["white • 43", 578, 380, 355], ["white • 42", 578, 380, 355]], 1, 380, 380], ["S32/11", [["black • 42", 840, 510, 485], ["black • 41", 840, 510, 485]], 1, 510, 510], ["T15", [["black • 45", 315, 250, 225], ["black • 42", 315, 250, 225]], 1, 250, 250], ["ZR811", [["black • 43", 700, 440, 415], ["black • 41", 700, 440, 415]], 1, 440, 440], ["AB753", [["green • 42", 1225, 705, 680]], 1, 705, 705], ["BR16", [["white • 41", 578, 380, 355]], 1, 380, 380], ["ES70", [["black • 42", 788, 485, 460]], 1, 485, 485], ["ES72", [["beige • 43", 788, 485, 460]], 1, 485, 485], ["FH19", [["white • 41", 665, 425, 400]], 1, 425, 425], ["L410", [["Gray • 42", 560, 370, 345]], 1, 370, 370], ["MA108", [["beige • 43", 998, 590, 565]], 1, 590, 590], ["MAX5332", [["black • 42", 858, 520, 495]], 1, 520, 520], ["MH2013", [["white • 41", 1330, 755, 730]], 1, 755, 755], ["MH2022", [["Gray • 41", 1452, 815, 790]], 1, 815, 815], ["MH2129", [["white • 39", 1680, 930, 905]], 1, 930, 930], ["N1000", [["black • 41", 1488, 835, 810]], 1, 835, 835], ["O158", [["white • 42", 1225, 705, 680]], 1, 705, 705], ["OLIPCK", [["white • 41", 1085, 635, 610]], 1, 635, 635], ["Q3", [["white • 42", 1330, 755, 730]], 1, 755, 755], ["R16", [["white • 44", 578, 380, 355]], 1, 380, 380]];
+const BRAND = "darkland";
+const GATE_CODE = "1515";
+const PLUS = 90, PAIR_CUT = 25;
+
+/* ---- gate ---- */
+const gate=document.getElementById('gate'), app=document.getElementById('app');
+function unlock(){ gate.hidden=true; app.hidden=false; try{localStorage.setItem('dl_ok','1')}catch(e){}; document.getElementById('q').focus(); }
+try{ if(localStorage.getItem('dl_ok')==='1'){ unlock(); } }catch(e){}
+function tryGate(){ const v=document.getElementById('gateInput').value.trim();
+  if(v===GATE_CODE){ unlock(); } else { document.getElementById('gateErr').textContent='الكود غلط'; } }
+document.getElementById('gateGo').onclick=tryGate;
+document.getElementById('gateInput').addEventListener('keydown',e=>{if(e.key==='Enter')tryGate();});
+
+/* ---- theme ---- */
+document.getElementById('themeBtn').onclick=()=>{
+  const cur=document.documentElement.getAttribute('data-theme');
+  const dark=cur? cur==='dark' : matchMedia('(prefers-color-scheme: dark)').matches;
+  document.documentElement.setAttribute('data-theme', dark?'light':'dark');
+  try{localStorage.setItem('dl_theme', dark?'light':'dark')}catch(e){}
+};
+try{const t=localStorage.getItem('dl_theme'); if(t)document.documentElement.setAttribute('data-theme',t);}catch(e){}
+
+/* ---- index ---- */
+function norm(s){ return s.toString().toLowerCase()
+  .replace(/[أإآ]/g,'ا').replace(/ى/g,'ي').replace(/ة/g,'ه').replace(/\s+/g,' ').trim(); }
+const INDEX = MODELS.map((m,mi)=>({mi, code:m[0], key:norm(m[0]+' '+m[1].map(v=>v[0]).join(' '))}));
+let totalVariants=0; MODELS.forEach(m=>totalVariants+=m[1].length);
+document.getElementById('itemCount').textContent = '('+MODELS.length.toLocaleString('ar-EG')+' موديل)';
+function esc(s){ return s.toString().replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c])); }
+const ar=n=>Number(n).toLocaleString('ar-EG');
+
+/* ---- search / render ---- */
+const qEl=document.getElementById('q'), listEl=document.getElementById('list'),
+      hintEl=document.getElementById('hint'), rc=document.getElementById('rescount'), clr=document.getElementById('clr');
+let lastQ='';
+function modelCard(mi){
+  const m=MODELS[mi], vs=m[1], uni=m[2]===1, n=vs.length;
+  const origMin=Math.min(...vs.map(v=>v[1])), origMax=Math.max(...vs.map(v=>v[1]));
+  let priceHtml, btns;
+  if(uni){
+    const s=m[3];
+    const origTxt = origMin===origMax? ar(origMin) : ar(origMin)+'–'+ar(origMax);
+    priceHtml=`<span class="orig">${origTxt}</span><span class="disc">${ar(s)} <small>ج</small></span>`;
+    btns=`<button class="addbtn" data-add="${mi}:-1">＋ ضيف للسلة</button>`
+       + (n>1?`<button class="expbtn" data-exp="${mi}">المقاسات (${ar(n)}) ▾</button>`:'');
+  } else {
+    priceHtml=`<span class="disc range">من ${ar(m[3])} لـ ${ar(m[4])} <small>ج</small></span>`;
+    btns=`<button class="expbtn full" data-exp="${mi}">اعرض الأسعار والمقاسات (${ar(n)}) ▾</button>`;
+  }
+  const vcnt = n>1? `<span class="vcnt">· ${ar(n)} لون/مقاس</span>` : (vs[0][0]?`<span class="vcnt">· ${esc(vs[0][0])}</span>`:'');
+  return `<div class="card" data-mi="${mi}">
+    <div class="cardtop">
+      <div class="model">${esc(m[0])} ${vcnt}</div>
+      <div class="prices">${priceHtml}</div>
+      <div class="cardbtns">${btns}</div>
+    </div>
+    <div class="variants" id="var-${mi}" hidden></div>
+  </div>`;
+}
+function variantRows(mi){
+  const vs=MODELS[mi][1];
+  return vs.map((v,vi)=>`<div class="vrow">
+      <div class="vlab">${esc(v[0]||'—')}</div>
+      <div class="vpr"><span class="vwas">${ar(v[1])}</span><b>${ar(v[2])} ج</b></div>
+      <button class="vadd" data-add="${mi}:${vi}">＋</button>
+    </div>`).join('');
+}
+function render(){
+  const raw=qEl.value.trim(); clr.hidden=!raw;
+  const q=norm(raw);
+  if(!q){ listEl.innerHTML=''; hintEl.hidden=false; rc.hidden=true; return; }
+  hintEl.hidden=true;
+  const terms=q.split(' ').filter(Boolean);
+  const hits=[];
+  for(const it of INDEX){ if(terms.every(t=>it.key.includes(t))){ hits.push(it.mi); if(hits.length>=80)break; } }
+  rc.hidden=false; rc.textContent = hits.length? (hits.length>=80?'+80 موديل — اكتب أكتر عشان تقرّب':ar(hits.length)+' موديل') : '';
+  if(!hits.length){ listEl.innerHTML='<div class="hint">مفيش موديل بالكود ده</div>'; }
+  else listEl.innerHTML = hits.map(modelCard).join('');
+  markAdded();
+  logSearch(raw);
+}
+let tmr; qEl.addEventListener('input',()=>{ clearTimeout(tmr); tmr=setTimeout(render,100); });
+clr.onclick=()=>{ qEl.value=''; qEl.focus(); render(); };
+
+function logSearch(term){ if(term===lastQ||term.length<2)return; lastQ=term;
+  try{ const k='dl_log'; const a=JSON.parse(localStorage.getItem(k)||'[]'); a.push({t:term,at:Date.now()});
+    if(a.length>500)a.splice(0,a.length-500); localStorage.setItem(k,JSON.stringify(a)); }catch(e){} }
+
+/* ---- basket ---- key "mi:vi" (vi=-1 = generic uniform) -> {code,label,orig,single,pair,qty} ---- */
+let basket={};
+try{ const b=localStorage.getItem('dl_basket'); if(b)basket=JSON.parse(b); }catch(e){}
+function saveBasket(){ try{localStorage.setItem('dl_basket',JSON.stringify(basket))}catch(e){} }
+function entryFor(key){
+  const [mi,vi]=key.split(':').map(Number); const m=MODELS[mi];
+  if(vi<0){ const v=m[1][0]; return {code:m[0],label:'',orig:v[1],single:m[3],pair:v[3]}; }
+  const v=m[1][vi]; return {code:m[0],label:v[0],orig:v[1],single:v[2],pair:v[3]};
+}
+function addItem(key){ if(!basket[key])basket[key]={qty:0,...entryFor(key)}; basket[key].qty++; saveBasket(); paint(); }
+function setQty(key,d){ if(!basket[key])return; basket[key].qty+=d; if(basket[key].qty<=0)delete basket[key]; saveBasket(); paint(); markAdded(); }
+
+function pieces(){ const out=[]; for(const k in basket){ const e=basket[k]; for(let i=0;i<e.qty;i++)out.push({key:k,...e}); } return out; }
+function calcNormal(ps){ const n=ps.length; let total=0; const lp={};
+  ps.forEach(p=>{ const pr=n>=2?p.pair:p.single; total+=pr; (lp[p.key]=lp[p.key]||[]).push(pr); }); return {total,lp}; }
+function calcBogo(ps){ let total=0; const lp={}; const sorted=[...ps].sort((a,b)=>b.orig-a.orig);
+  const add=(p,price)=>{ total+=price; (lp[p.key]=lp[p.key]||[]).push(price); };
+  for(let k=0;k<sorted.length;k+=2){ if(k+1<sorted.length){ add(sorted[k],sorted[k].orig); add(sorted[k+1],0);} else add(sorted[k],sorted[k].single); }
+  return {total,lp}; }
+function compute(){
+  const ps=pieces(); const n=ps.length;
+  const bogoOn=document.getElementById('bogo').checked;
+  const baseOrig=ps.reduce((a,p)=>a+p.orig,0);
+  const normal=calcNormal(ps);
+  // BOGO not running, or <2 pieces -> normal discount only
+  if(!bogoOn || n<2) return {ps,n,baseOrig,total:normal.total,linePrice:normal.lp,mode:'normal',note:''};
+  // both offers running -> auto-pick the cheaper for the customer
+  const bogo=calcBogo(ps); const diff=normal.total-bogo.total;
+  if(bogo.total<normal.total)
+    return {ps,n,baseOrig,total:bogo.total,linePrice:bogo.lp,mode:'bogo',note:'✓ اعمل «قطعة على قطعة» — أوفر للعميل بـ '+ar(diff)+' ج'};
+  return {ps,n,baseOrig,total:normal.total,linePrice:normal.lp,mode:'normal',
+    note: diff<0 ? '✓ اعمل خصم القطعتين — أوفر للعميل بـ '+ar(-diff)+' ج' : '✓ العرضين بنفس السعر — اعمل أي واحد'};
+}
+function paint(){
+  const c=compute();
+  document.getElementById('barTot').innerHTML = ar(c.total)+' <small>ج</small>';
+  document.getElementById('barCount').textContent = ar(c.n);
+  const itemsEl=document.getElementById('items');
+  const keys=Object.keys(basket);
+  if(!keys.length){ itemsEl.innerHTML='<div class="empty">السلة فاضية</div>'; }
+  else{
+    itemsEl.innerHTML=keys.map(k=>{
+      const e=basket[k];
+      const prices=(c.linePrice[k]||[]).slice().sort((a,b)=>a-b);
+      const shown=prices.map(p=> p===0?`<span class="freeTag">مجانًا</span>`:ar(p)).join(' + ')||'0';
+      return `<div class="brow">
+        <div class="nm">${esc(e.code)} ${e.label?`<span class="sz">${esc(e.label)}</span>`:''}</div>
+        <div class="pr"><span class="was">${ar(e.orig*e.qty)}</span>${shown} ج</div>
+        <div class="qty"><button data-m="${k}">−</button><span>${ar(e.qty)}</span><button data-p="${k}">＋</button></div>
+      </div>`;
+    }).join('');
+  }
+  document.getElementById('sheetTot').textContent = ar(c.total)+' ج';
+  const save=c.baseOrig-c.total;
+  document.getElementById('saveLine').textContent = c.n? ('وفّرت '+ar(save)+' ج'):'';
+  let bd='';
+  if(c.n===0) bd='';
+  else if(c.note) bd=c.note;
+  else if(c.n>=2) bd='خصم القطعتين فأكتر (−'+PAIR_CUT+' ج لكل قطعة)';
+  else bd='سعر القطعة الواحدة بعد الخصم';
+  const bdEl=document.getElementById('breakdown');
+  bdEl.textContent=bd; bdEl.style.color = c.note? 'var(--ok)':'var(--muted)'; bdEl.style.fontWeight = c.note?'600':'400';
+}
+function markAdded(){
+  document.querySelectorAll('[data-add]').forEach(b=>{
+    const inb = !!basket[b.dataset.add];
+    b.classList.toggle('added', inb);
+    if(b.classList.contains('addbtn')) b.textContent = inb? '✓ في السلة' : '＋ ضيف للسلة';
+  });
+}
+
+/* events */
+document.addEventListener('click',e=>{
+  const add=e.target.closest('[data-add]'); if(add){ addItem(add.dataset.add); markAdded(); return; }
+  const exp=e.target.closest('[data-exp]'); if(exp){
+    const mi=exp.dataset.exp, box=document.getElementById('var-'+mi);
+    if(box.hidden){ box.innerHTML=variantRows(mi); box.hidden=false; exp.innerHTML=exp.innerHTML.replace('▾','▴'); markAdded(); }
+    else { box.hidden=true; box.innerHTML=''; exp.innerHTML=exp.innerHTML.replace('▴','▾'); }
+    return;
+  }
+  if(e.target.dataset.p!=null){ setQty(e.target.dataset.p,+1); }
+  if(e.target.dataset.m!=null){ setQty(e.target.dataset.m,-1); }
+});
+document.getElementById('bogo').onchange=paint;
+const sheet=document.getElementById('sheet');
+document.getElementById('openSheet').onclick=()=>sheet.classList.add('open');
+document.getElementById('closeSheet').onclick=()=>sheet.classList.remove('open');
+sheet.onclick=e=>{ if(e.target===sheet)sheet.classList.remove('open'); };
+document.getElementById('clearBtn').onclick=()=>{ basket={}; saveBasket(); paint(); markAdded(); };
+paint();
+</script>
+
+</html>
